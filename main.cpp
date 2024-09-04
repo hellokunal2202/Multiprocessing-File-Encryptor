@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
     std::string action;
 
     std::cout << "Enter the directory path: ";
-    std::getline(std::cin, directory);
+    std::getline(std::cin, directory); 
 
     std::cout << "Enter the action (encrypt/decrypt): ";
     std::getline(std::cin, action);
@@ -37,7 +37,6 @@ int main(int argc, char* argv[]) {
                 }
             }
 
-            processManagement.executeTasks();
         } else {
             std::cout << "Invalid directory path!" << std::endl;
         }
